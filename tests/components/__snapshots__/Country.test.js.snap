@@ -2,38 +2,38 @@ exports[`test expands on click 1`] = `
 <li
   className="country 
       
-      has-gold 
+      
       has-silver 
-      has-bronze 
+      
       ">
   <a
     onClick={[Function]}>
     <span>
-      🇦🇺
-      Australia
+      🏳
+      TRI
        (
-      4
+      5
       )
     </span>
     <abbr
-      title="1 gold medals">
-      🥇
+      title="0 gold medals">
+      
     </abbr>
     <abbr
-      title="2 silver medals">
-      🥈🥈
+      title="5 silver medals">
+      🥈🥈🥈🥈🥈
     </abbr>
     <abbr
-      title="1 bronze medals">
-      🥉
+      title="0 bronze medals">
+      
     </abbr>
   </a>
   <ul>
     <li>
-      🏃‍♀️
-      MCLELLAN, Sally
+      🏃
+      THOMPSON, Richard
        - 
-      100m hurdles
+      100m
        - 
       <span>
         🥈
@@ -41,19 +41,9 @@ exports[`test expands on click 1`] = `
     </li>
     <li>
       🏃
-      TALLENT, Jared
+      BLEDMAN, Keston
        - 
-      20km walk
-       - 
-      <span>
-        🥉
-      </span>
-    </li>
-    <li>
-      🏃
-      TALLENT, Jared
-       - 
-      50km walk
+      4x100m relay
        - 
       <span>
         🥈
@@ -61,12 +51,32 @@ exports[`test expands on click 1`] = `
     </li>
     <li>
       🏃
-      HOOKER, Steve
+      BURNS, Marc
        - 
-      pole vault
+      4x100m relay
        - 
       <span>
-        🥇
+        🥈
+      </span>
+    </li>
+    <li>
+      🏃
+      CALLENDER, Emmanuel
+       - 
+      4x100m relay
+       - 
+      <span>
+        🥈
+      </span>
+    </li>
+    <li>
+      🏃
+      THOMPSON, Richard
+       - 
+      4x100m relay
+       - 
+      <span>
+        🥈
       </span>
     </li>
   </ul>
@@ -77,38 +87,38 @@ exports[`test renders correctly 1`] = `
 <li
   className="country 
       
-      has-gold 
+      
       has-silver 
-      has-bronze 
+      
       ">
   <a
     onClick={[Function]}>
     <span>
-      🇦🇺
-      Australia
+      🏳
+      TRI
        (
-      4
+      5
       )
     </span>
     <abbr
-      title="1 gold medals">
-      🥇
+      title="0 gold medals">
+      
     </abbr>
     <abbr
-      title="2 silver medals">
-      🥈🥈
+      title="5 silver medals">
+      🥈🥈🥈🥈🥈
     </abbr>
     <abbr
-      title="1 bronze medals">
-      🥉
+      title="0 bronze medals">
+      
     </abbr>
   </a>
   <ul>
     <li>
-      🏃‍♀️
-      MCLELLAN, Sally
+      🏃
+      THOMPSON, Richard
        - 
-      100m hurdles
+      100m
        - 
       <span>
         🥈
@@ -116,19 +126,9 @@ exports[`test renders correctly 1`] = `
     </li>
     <li>
       🏃
-      TALLENT, Jared
+      BLEDMAN, Keston
        - 
-      20km walk
-       - 
-      <span>
-        🥉
-      </span>
-    </li>
-    <li>
-      🏃
-      TALLENT, Jared
-       - 
-      50km walk
+      4x100m relay
        - 
       <span>
         🥈
@@ -136,12 +136,32 @@ exports[`test renders correctly 1`] = `
     </li>
     <li>
       🏃
-      HOOKER, Steve
+      BURNS, Marc
        - 
-      pole vault
+      4x100m relay
        - 
       <span>
-        🥇
+        🥈
+      </span>
+    </li>
+    <li>
+      🏃
+      CALLENDER, Emmanuel
+       - 
+      4x100m relay
+       - 
+      <span>
+        🥈
+      </span>
+    </li>
+    <li>
+      🏃
+      THOMPSON, Richard
+       - 
+      4x100m relay
+       - 
+      <span>
+        🥈
       </span>
     </li>
   </ul>

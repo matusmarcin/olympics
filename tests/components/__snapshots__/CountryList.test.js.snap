@@ -432,6 +432,170 @@ exports[`test renders correctly 1`] = `
     <li
       className="country 
           
+          
+          has-silver 
+          
+          ">
+      <a
+        onClick={[Function]}>
+        <span>
+          🏳
+          TRI
+           (
+          5
+          )
+        </span>
+        <abbr
+          title="0 gold medals">
+          
+        </abbr>
+        <abbr
+          title="5 silver medals">
+          🥈🥈🥈🥈🥈
+        </abbr>
+        <abbr
+          title="0 bronze medals">
+          
+        </abbr>
+      </a>
+      <ul>
+        <li>
+          🏃
+          THOMPSON, Richard
+           - 
+          100m
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+        <li>
+          🏃
+          BLEDMAN, Keston
+           - 
+          4x100m relay
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+        <li>
+          🏃
+          BURNS, Marc
+           - 
+          4x100m relay
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+        <li>
+          🏃
+          CALLENDER, Emmanuel
+           - 
+          4x100m relay
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+        <li>
+          🏃
+          THOMPSON, Richard
+           - 
+          4x100m relay
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="country 
+          
+          
+          has-silver 
+          has-bronze 
+          ">
+      <a
+        onClick={[Function]}>
+        <span>
+          🇧🇸
+          Bahamas
+           (
+          5
+          )
+        </span>
+        <abbr
+          title="0 gold medals">
+          
+        </abbr>
+        <abbr
+          title="4 silver medals">
+          🥈🥈🥈🥈
+        </abbr>
+        <abbr
+          title="1 bronze medals">
+          🥉
+        </abbr>
+      </a>
+      <ul>
+        <li>
+          🏃
+          BAIN, Andretti
+           - 
+          4x400m relay
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+        <li>
+          🏃
+          BROWN, Christopher
+           - 
+          4x400m relay
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+        <li>
+          🏃
+          MATHIEU, Michael
+           - 
+          4x400m relay
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+        <li>
+          🏃
+          WILLIAMS, Andrae
+           - 
+          4x400m relay
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+        <li>
+          🏃
+          SANDS, Leevan
+           - 
+          triple jump
+           - 
+          <span>
+            🥉
+          </span>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="country 
+          
           has-gold 
           has-silver 
           has-bronze 
@@ -549,6 +713,90 @@ exports[`test renders correctly 1`] = `
            - 
           <span>
             🥇
+          </span>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="country 
+          
+          
+          
+          has-bronze 
+          ">
+      <a
+        onClick={[Function]}>
+        <span>
+          🇨🇦
+          Canada
+           (
+          1
+          )
+        </span>
+        <abbr
+          title="0 gold medals">
+          
+        </abbr>
+        <abbr
+          title="0 silver medals">
+          
+        </abbr>
+        <abbr
+          title="1 bronze medals">
+          🥉
+        </abbr>
+      </a>
+      <ul>
+        <li>
+          🏃‍♀️
+          LOPES-SCHLIEP, Priscilla
+           - 
+          100m hurdles
+           - 
+          <span>
+            🥉
+          </span>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="country 
+          
+          
+          
+          has-bronze 
+          ">
+      <a
+        onClick={[Function]}>
+        <span>
+          🇬🇷
+          Greece
+           (
+          1
+          )
+        </span>
+        <abbr
+          title="0 gold medals">
+          
+        </abbr>
+        <abbr
+          title="0 silver medals">
+          
+        </abbr>
+        <abbr
+          title="1 bronze medals">
+          🥉
+        </abbr>
+      </a>
+      <ul>
+        <li>
+          🏃‍♀️
+          DEVETZI, Hrysopiyi
+           - 
+          triple jump
+           - 
+          <span>
+            🥉
           </span>
         </li>
       </ul>

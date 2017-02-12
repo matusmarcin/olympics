@@ -1,7 +1,7 @@
 import request from 'superagent';
 import { countries, lookup } from 'country-data';
 
-const getMedalsByCountry = (medals) => {
+export const getMedalsByCountry = (medals) => {
   const medalsByCountry = {};
   medals.forEach((item) => {
     if (typeof medalsByCountry[item.country] === 'undefined') {

@@ -26,7 +26,7 @@
   "jest": {
     "collectCoverage": true,
     "coverageDirectory": "coverage",
-    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.jsx?$"
+    "testRegex": "(/tests/.*|(\\.|/))(test|spec)\\.jsx?$"
   },
   "dependencies": {
     "country-data": "^0.0.31",
@@ -56,6 +56,8 @@
     "precommit-hook": "^3.0.0",
     "react-addons-test-utils": "^15.4.2",
     "react-test-renderer": "^15.4.2",
+    "redux-mock-store": "^1.2.2",
+    "redux-thunk": "^2.2.0",
     "webpack": "^2.2.1"
   }
 }
