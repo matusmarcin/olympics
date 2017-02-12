@@ -8,10 +8,6 @@ class Country extends Component {
     this.toggle = this.toggle.bind(this);
   }
 
-  toggle() {
-    this.setState({ expanded: !this.state.expanded });
-  }
-
   getClassName() {
     return `country 
       ${this.state.expanded ? 'expanded ' : ''}
@@ -21,21 +17,30 @@ class Country extends Component {
       `;
   }
 
+  toggle(e) {
+    e.preventDefault();
+    this.setState({ expanded: !this.state.expanded });
+  }
+
   render() {
     return (
-      <li onClick={() => this.toggle()} className={this.getClassName()}>
-      	<span>
-          <span>{this.props.emoji} {this.props.name ? this.props.name : this.props.code} ({this.props.totalCount}) </span>
-          <abbr title={this.props.goldCount + " gold medals"}>{'🥇'.repeat(this.props.goldCount)}</abbr>
-          <abbr title={this.props.silverCount + " silver medals"}>{'🥈'.repeat(this.props.silverCount)}</abbr>
-          <abbr title={this.props.bronzeCount + " bronze medals"}>{'🥉'.repeat(this.props.bronzeCount)}</abbr>
-        </span>
+      <li className={this.getClassName()}>
+        { // eslint-disable-next-line jsx-a11y/no-static-element-interactions
+        }<a onClick={e => this.toggle(e)}>
+          <span>
+            {this.props.emoji}
+            {this.props.name ? this.props.name : this.props.code} ({this.props.totalCount})
+          </span>
+          <abbr title={`${this.props.goldCount} gold medals`}>{'🥇'.repeat(this.props.goldCount)}</abbr>
+          <abbr title={`${this.props.silverCount} silver medals`}>{'🥈'.repeat(this.props.silverCount)}</abbr>
+          <abbr title={`${this.props.bronzeCount} bronze medals`}>{'🥉'.repeat(this.props.bronzeCount)}</abbr>
+        </a>
         <ul>
           {this.props.medals.map(medal =>
-          	<Medal
-          	  key={medal.id}
-          	  {...medal}
-          	/>
+            <Medal
+              key={medal.id}
+              {...medal}
+            />,
           )}
         </ul>
       </li>
@@ -53,7 +58,7 @@ Country.propTypes = {
   code: PropTypes.string.isRequired,
   name: PropTypes.oneOfType([
     PropTypes.string,
-    PropTypes.bool
+    PropTypes.bool,
   ]),
   emoji: PropTypes.string,
   goldCount: PropTypes.number.isRequired,

@@ -1,11 +1,11 @@
 import React, { PropTypes, Component } from 'react';
-import Country from './Country';
 import ToggleButton from 'react-toggle-button';
+import Country from './Country';
 
 class CountryList extends Component {
   constructor(props) {
     super(props);
-    this.state = { 
+    this.state = {
       goldVisible: true,
       silverVisible: true,
       bronzeVisible: true,
@@ -13,7 +13,7 @@ class CountryList extends Component {
   }
 
   getClassName() {
-      return `country-list 
+    return `country-list 
           ${this.state.goldVisible ? 'show-gold ' : ''}
           ${this.state.silverVisible ? 'show-silver ' : ''}
           ${this.state.bronzeVisible ? 'show-bronze ' : ''}`;
@@ -26,7 +26,8 @@ class CountryList extends Component {
           <p>Loading...</p>
           :
           <p className="lead">
-          List of countries participating in the 2008 Olympics by total medal count in descending order.
+          List of countries participating in the 2008 Olympics
+          by total medal count in descending order.
           </p>
         }
         { !this.props.loading ?
@@ -37,32 +38,35 @@ class CountryList extends Component {
             <div className="medal-toggle">
               <div className="medal"> 🥇 </div>
               <ToggleButton
-                value={ this.state.goldVisible || false }
-                onToggle={(value) => {
+                value={this.state.goldVisible || false}
+                onToggle={() => {
                   this.setState({
                     goldVisible: !this.state.goldVisible,
-                  })
-              }} />
+                  });
+                }}
+              />
             </div>
             <div className="medal-toggle">
               <div className="medal"> 🥈 </div>
               <ToggleButton
-                value={ this.state.silverVisible || false }
-                onToggle={(value) => {
+                value={this.state.silverVisible || false}
+                onToggle={() => {
                   this.setState({
                     silverVisible: !this.state.silverVisible,
-                  })
-              }} />
+                  });
+                }}
+              />
             </div>
             <div className="medal-toggle">
               <div className="medal"> 🥉 </div>
               <ToggleButton
-                value={ this.state.bronzeVisible || false }
-                onToggle={(value) => {
+                value={this.state.bronzeVisible || false}
+                onToggle={() => {
                   this.setState({
                     bronzeVisible: !this.state.bronzeVisible,
-                  })
-              }} />
+                  });
+                }}
+              />
             </div>
           </div>
           : ''
@@ -73,13 +77,13 @@ class CountryList extends Component {
             <Country
               key={country.code}
               {...country}
-            />
+            />,
           )}
         </ol>
       </div>
     );
   }
-};
+}
 
 CountryList.propTypes = {
   countries: PropTypes.arrayOf(PropTypes.shape({

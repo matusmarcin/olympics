@@ -13,7 +13,8 @@
     "start:dev": "webpack-dev-server",
     "watch": "nodemon --exec \"npm start\"",
     "lint": "eslint . --ignore-path .gitignore",
-    "test": "jest"
+    "test": "jest",
+    "validate": "npm ls"
   },
   "pre-commit": "lint",
   "dependencies": {
@@ -39,6 +40,7 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.9.0",
     "jest": "^18.1.0",
+    "precommit-hook": "^3.0.0",
     "react-addons-test-utils": "^15.4.2",
     "webpack": "^2.2.1"
   }
