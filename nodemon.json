@@ -1,0 +1,11 @@
+{
+  "verbose": true,
+  "ignore": ["dist/", "assets/", "test/"],
+  "ignoreRoot": [".git"],
+  "watch": [
+    "index.html",
+    "src/",
+    "data/"
+  ],
+  "ext": "js,es6,css"
+}
