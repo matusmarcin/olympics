@@ -53,7 +53,7 @@ Ta-da 🎉
 
 ## Coding standards, tests, coverage and all
 
-Everything is linted, much of the code is covered by test and the project is set up so that you (I) keep doing that. Linting is checked as a pre-commit hook and tests run as pre-push. Test coverage is done out of the box by **Jest**.
+Everything is linted, much of the code is covered by tests and the project is set up so that you (I) keep doing that. Linting is checked as a pre-commit hook and tests run as pre-push. Test coverage is done out of the box by **Jest**.
 
 This is how it looks:
 
@@ -62,3 +62,11 @@ This is how it looks:
 ## We ❤️ CI/CD
 
 When pushed to master branch, **Codeship** picks up the source code, builds it, runs the tests and `rsync`s the new files to the **DigitalOcean** server.
+
+# So that's it?
+
+Yup, I think that's it. 
+
+Feel free to explore the code to learn more or get in touch with me here or [@faster on Twitter](http://www.twitter.com/faster) 👋
+
+👉 **[olympics.matusmarcin.com](http://olympics.matusmarcin.com)**
