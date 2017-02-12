@@ -21,7 +21,7 @@ render(
   <Provider store={store}>
     <App />
   </Provider>,
-    document.getElementById('app-node')
+    document.getElementById('app-node'),
 );
 
 store.dispatch({ type: 'GET_OLYMPICS_DATA' });

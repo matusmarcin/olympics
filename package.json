@@ -16,7 +16,7 @@
     "test": "jest",
     "validate": "npm ls"
   },
-  "pre-commit": "lint",
+  "pre-commit": ["lint"],
   "dependencies": {
     "country-data": "^0.0.31",
     "eslint": "^3.15.0",
