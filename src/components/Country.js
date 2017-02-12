@@ -17,8 +17,10 @@ class Country extends Component {
       `;
   }
 
-  toggle(e) {
-    e.preventDefault();
+  toggle(e = false) {
+    if (e) {
+      e.preventDefault();
+    }
     this.setState({ expanded: !this.state.expanded });
   }
 

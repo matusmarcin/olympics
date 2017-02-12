@@ -1,0 +1,572 @@
+exports[`test renders correctly 1`] = `
+<div>
+  <p
+    className="lead">
+    List of countries participating in the 2008 Olympics by total medal count in descending order.
+  </p>
+  <div
+    aria-label="Filter"
+    className="filter"
+    role="group">
+    <div
+      className="filter-label">
+      Now showing:
+    </div>
+    <div
+      className="medal-toggle">
+      <div
+        className="medal">
+         🥇 
+      </div>
+      <div
+        onClick={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        style={
+          Object {
+            "KhtmlUserSelect": "none",
+            "MozUserSelect": "none",
+            "WebkitTapHighlightColor": "transparent",
+            "WebkitTouchCallout": "none",
+            "WebkitUserSelect": "none",
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "border": 0,
+            "cursor": "pointer",
+            "display": "flex",
+            "justifyContent": "flex-start",
+            "msUserSelect": "none",
+            "padding": 0,
+            "position": "relative",
+            "userSelect": "none",
+            "width": 52,
+          }
+        }>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgb(1,124,66)",
+              "borderRadius": "26px",
+              "display": "flex",
+              "height": "20px",
+              "justifyContent": "center",
+              "padding": 0,
+              "width": "52px",
+            }
+          }>
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "color": "#FAFAFA",
+                "display": "flex",
+                "fontFamily": "\'Helvetica Neue\', Helvetica, sans-serif",
+                "fontSize": 11,
+                "height": 20,
+                "justifyContent": "center",
+                "left": 4,
+                "lineHeight": 0,
+                "marginBottom": "auto",
+                "marginTop": "auto",
+                "opacity": 1,
+                "position": "relative",
+                "width": 26,
+              }
+            }>
+            ON
+          </div>
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": "0px",
+                "color": "rgba(255,255,255,0.6)",
+                "display": "flex",
+                "fontFamily": "\'Helvetica Neue\', Helvetica, sans-serif",
+                "fontSize": 11,
+                "height": 20,
+                "justifyContent": "center",
+                "lineHeight": 0,
+                "marginBottom": "auto",
+                "marginTop": "auto",
+                "opacity": 0,
+                "paddingRight": 5,
+                "position": "relative",
+                "width": 26,
+              }
+            }>
+            OFF
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "stretch",
+              "display": "flex",
+              "flex": 1,
+              "height": "100%",
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+            }
+          }>
+          <div
+            style={
+              Object {
+                "MozBoxSizing": "border-box",
+                "WebkitBoxSizing": "border-box",
+                "alignSelf": "center",
+                "backgroundColor": "rgb(250,250,250)",
+                "borderRadius": "50%",
+                "boxShadow": "0 0 0 1px rgba(0,0,0,0.3)",
+                "boxSizing": "border-box",
+                "display": "flex",
+                "height": "18px",
+                "left": 33,
+                "position": "relative",
+                "width": "18px",
+              }
+            } />
+        </div>
+        <input
+          onClick={[Function]}
+          style={
+            Object {
+              "border": 0,
+              "clip": "rect(0 0 0 0)",
+              "height": 1,
+              "margin": -1,
+              "overflow": "hidden",
+              "padding": 0,
+              "position": "absolute",
+              "width": 1,
+            }
+          }
+          type="checkbox"
+          value={true} />
+      </div>
+    </div>
+    <div
+      className="medal-toggle">
+      <div
+        className="medal">
+         🥈 
+      </div>
+      <div
+        onClick={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        style={
+          Object {
+            "KhtmlUserSelect": "none",
+            "MozUserSelect": "none",
+            "WebkitTapHighlightColor": "transparent",
+            "WebkitTouchCallout": "none",
+            "WebkitUserSelect": "none",
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "border": 0,
+            "cursor": "pointer",
+            "display": "flex",
+            "justifyContent": "flex-start",
+            "msUserSelect": "none",
+            "padding": 0,
+            "position": "relative",
+            "userSelect": "none",
+            "width": 52,
+          }
+        }>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgb(1,124,66)",
+              "borderRadius": "26px",
+              "display": "flex",
+              "height": "20px",
+              "justifyContent": "center",
+              "padding": 0,
+              "width": "52px",
+            }
+          }>
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "color": "#FAFAFA",
+                "display": "flex",
+                "fontFamily": "\'Helvetica Neue\', Helvetica, sans-serif",
+                "fontSize": 11,
+                "height": 20,
+                "justifyContent": "center",
+                "left": 4,
+                "lineHeight": 0,
+                "marginBottom": "auto",
+                "marginTop": "auto",
+                "opacity": 1,
+                "position": "relative",
+                "width": 26,
+              }
+            }>
+            ON
+          </div>
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": "0px",
+                "color": "rgba(255,255,255,0.6)",
+                "display": "flex",
+                "fontFamily": "\'Helvetica Neue\', Helvetica, sans-serif",
+                "fontSize": 11,
+                "height": 20,
+                "justifyContent": "center",
+                "lineHeight": 0,
+                "marginBottom": "auto",
+                "marginTop": "auto",
+                "opacity": 0,
+                "paddingRight": 5,
+                "position": "relative",
+                "width": 26,
+              }
+            }>
+            OFF
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "stretch",
+              "display": "flex",
+              "flex": 1,
+              "height": "100%",
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+            }
+          }>
+          <div
+            style={
+              Object {
+                "MozBoxSizing": "border-box",
+                "WebkitBoxSizing": "border-box",
+                "alignSelf": "center",
+                "backgroundColor": "rgb(250,250,250)",
+                "borderRadius": "50%",
+                "boxShadow": "0 0 0 1px rgba(0,0,0,0.3)",
+                "boxSizing": "border-box",
+                "display": "flex",
+                "height": "18px",
+                "left": 33,
+                "position": "relative",
+                "width": "18px",
+              }
+            } />
+        </div>
+        <input
+          onClick={[Function]}
+          style={
+            Object {
+              "border": 0,
+              "clip": "rect(0 0 0 0)",
+              "height": 1,
+              "margin": -1,
+              "overflow": "hidden",
+              "padding": 0,
+              "position": "absolute",
+              "width": 1,
+            }
+          }
+          type="checkbox"
+          value={true} />
+      </div>
+    </div>
+    <div
+      className="medal-toggle">
+      <div
+        className="medal">
+         🥉 
+      </div>
+      <div
+        onClick={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        style={
+          Object {
+            "KhtmlUserSelect": "none",
+            "MozUserSelect": "none",
+            "WebkitTapHighlightColor": "transparent",
+            "WebkitTouchCallout": "none",
+            "WebkitUserSelect": "none",
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "border": 0,
+            "cursor": "pointer",
+            "display": "flex",
+            "justifyContent": "flex-start",
+            "msUserSelect": "none",
+            "padding": 0,
+            "position": "relative",
+            "userSelect": "none",
+            "width": 52,
+          }
+        }>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgb(1,124,66)",
+              "borderRadius": "26px",
+              "display": "flex",
+              "height": "20px",
+              "justifyContent": "center",
+              "padding": 0,
+              "width": "52px",
+            }
+          }>
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "color": "#FAFAFA",
+                "display": "flex",
+                "fontFamily": "\'Helvetica Neue\', Helvetica, sans-serif",
+                "fontSize": 11,
+                "height": 20,
+                "justifyContent": "center",
+                "left": 4,
+                "lineHeight": 0,
+                "marginBottom": "auto",
+                "marginTop": "auto",
+                "opacity": 1,
+                "position": "relative",
+                "width": 26,
+              }
+            }>
+            ON
+          </div>
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": "0px",
+                "color": "rgba(255,255,255,0.6)",
+                "display": "flex",
+                "fontFamily": "\'Helvetica Neue\', Helvetica, sans-serif",
+                "fontSize": 11,
+                "height": 20,
+                "justifyContent": "center",
+                "lineHeight": 0,
+                "marginBottom": "auto",
+                "marginTop": "auto",
+                "opacity": 0,
+                "paddingRight": 5,
+                "position": "relative",
+                "width": 26,
+              }
+            }>
+            OFF
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "stretch",
+              "display": "flex",
+              "flex": 1,
+              "height": "100%",
+              "justifyContent": "flex-start",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+            }
+          }>
+          <div
+            style={
+              Object {
+                "MozBoxSizing": "border-box",
+                "WebkitBoxSizing": "border-box",
+                "alignSelf": "center",
+                "backgroundColor": "rgb(250,250,250)",
+                "borderRadius": "50%",
+                "boxShadow": "0 0 0 1px rgba(0,0,0,0.3)",
+                "boxSizing": "border-box",
+                "display": "flex",
+                "height": "18px",
+                "left": 33,
+                "position": "relative",
+                "width": "18px",
+              }
+            } />
+        </div>
+        <input
+          onClick={[Function]}
+          style={
+            Object {
+              "border": 0,
+              "clip": "rect(0 0 0 0)",
+              "height": 1,
+              "margin": -1,
+              "overflow": "hidden",
+              "padding": 0,
+              "position": "absolute",
+              "width": 1,
+            }
+          }
+          type="checkbox"
+          value={true} />
+      </div>
+    </div>
+  </div>
+  <ol
+    className="country-list 
+            show-gold 
+            show-silver 
+            show-bronze ">
+    <li
+      className="country 
+          
+          has-gold 
+          has-silver 
+          has-bronze 
+          ">
+      <a
+        onClick={[Function]}>
+        <span>
+          🇦🇺
+          Australia
+           (
+          4
+          )
+        </span>
+        <abbr
+          title="1 gold medals">
+          🥇
+        </abbr>
+        <abbr
+          title="2 silver medals">
+          🥈🥈
+        </abbr>
+        <abbr
+          title="1 bronze medals">
+          🥉
+        </abbr>
+      </a>
+      <ul>
+        <li>
+          🏃‍♀️
+          MCLELLAN, Sally
+           - 
+          100m hurdles
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+        <li>
+          🏃
+          TALLENT, Jared
+           - 
+          20km walk
+           - 
+          <span>
+            🥉
+          </span>
+        </li>
+        <li>
+          🏃
+          TALLENT, Jared
+           - 
+          50km walk
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+        <li>
+          🏃
+          HOOKER, Steve
+           - 
+          pole vault
+           - 
+          <span>
+            🥇
+          </span>
+        </li>
+      </ul>
+    </li>
+    <li
+      className="country 
+          
+          has-gold 
+          has-silver 
+          
+          ">
+      <a
+        onClick={[Function]}>
+        <span>
+          🇵🇱
+          Poland
+           (
+          2
+          )
+        </span>
+        <abbr
+          title="1 gold medals">
+          🥇
+        </abbr>
+        <abbr
+          title="1 silver medals">
+          🥈
+        </abbr>
+        <abbr
+          title="0 bronze medals">
+          
+        </abbr>
+      </a>
+      <ul>
+        <li>
+          🏃
+          MALACHOWSKI, Piotr
+           - 
+          discus throw
+           - 
+          <span>
+            🥈
+          </span>
+        </li>
+        <li>
+          🏃
+          MAJEWSKI, Tomasz
+           - 
+          shot put
+           - 
+          <span>
+            🥇
+          </span>
+        </li>
+      </ul>
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`test renders loading message 1`] = `
+<div>
+  <p>
+    Loading...
+  </p>
+  
+  <ol
+    className="country-list 
+            show-gold 
+            show-silver 
+            show-bronze " />
+</div>
+`;

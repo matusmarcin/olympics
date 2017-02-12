@@ -1,0 +1,25 @@
+exports[`test renders correctly 1`] = `
+<li>
+  🏃
+  Matus Marcin
+   - 
+  test writing
+   - 
+  <span>
+    🥇
+  </span>
+</li>
+`;
+
+exports[`test renders correctly female 1`] = `
+<li>
+  🏃‍♀️
+  Some Lady
+   - 
+  olympic games attendance
+   - 
+  <span>
+    🥇
+  </span>
+</li>
+`;

@@ -1,0 +1,149 @@
+exports[`test expands on click 1`] = `
+<li
+  className="country 
+      
+      has-gold 
+      has-silver 
+      has-bronze 
+      ">
+  <a
+    onClick={[Function]}>
+    <span>
+      🇦🇺
+      Australia
+       (
+      4
+      )
+    </span>
+    <abbr
+      title="1 gold medals">
+      🥇
+    </abbr>
+    <abbr
+      title="2 silver medals">
+      🥈🥈
+    </abbr>
+    <abbr
+      title="1 bronze medals">
+      🥉
+    </abbr>
+  </a>
+  <ul>
+    <li>
+      🏃‍♀️
+      MCLELLAN, Sally
+       - 
+      100m hurdles
+       - 
+      <span>
+        🥈
+      </span>
+    </li>
+    <li>
+      🏃
+      TALLENT, Jared
+       - 
+      20km walk
+       - 
+      <span>
+        🥉
+      </span>
+    </li>
+    <li>
+      🏃
+      TALLENT, Jared
+       - 
+      50km walk
+       - 
+      <span>
+        🥈
+      </span>
+    </li>
+    <li>
+      🏃
+      HOOKER, Steve
+       - 
+      pole vault
+       - 
+      <span>
+        🥇
+      </span>
+    </li>
+  </ul>
+</li>
+`;
+
+exports[`test renders correctly 1`] = `
+<li
+  className="country 
+      
+      has-gold 
+      has-silver 
+      has-bronze 
+      ">
+  <a
+    onClick={[Function]}>
+    <span>
+      🇦🇺
+      Australia
+       (
+      4
+      )
+    </span>
+    <abbr
+      title="1 gold medals">
+      🥇
+    </abbr>
+    <abbr
+      title="2 silver medals">
+      🥈🥈
+    </abbr>
+    <abbr
+      title="1 bronze medals">
+      🥉
+    </abbr>
+  </a>
+  <ul>
+    <li>
+      🏃‍♀️
+      MCLELLAN, Sally
+       - 
+      100m hurdles
+       - 
+      <span>
+        🥈
+      </span>
+    </li>
+    <li>
+      🏃
+      TALLENT, Jared
+       - 
+      20km walk
+       - 
+      <span>
+        🥉
+      </span>
+    </li>
+    <li>
+      🏃
+      TALLENT, Jared
+       - 
+      50km walk
+       - 
+      <span>
+        🥈
+      </span>
+    </li>
+    <li>
+      🏃
+      HOOKER, Steve
+       - 
+      pole vault
+       - 
+      <span>
+        🥇
+      </span>
+    </li>
+  </ul>
+</li>
+`;

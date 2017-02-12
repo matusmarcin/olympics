@@ -9,7 +9,7 @@ const medalIcon = {
 const Medal = ({ athlete, event, medal, sex }) => (
   <li>
     {sex === 'Men' ? '🏃' : '🏃‍♀️'}
-    {athlete} - {event} - <span className="medal-{medal}">{medalIcon[medal.toLowerCase()]}</span>
+    {athlete} - {event} - <span>{medalIcon[medal.toLowerCase()]}</span>
   </li>
 );
 
