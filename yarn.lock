@@ -3270,6 +3270,12 @@ pluralize@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-1.2.1.tgz#d1a21483fd22bb41e58a12fa3421823140897c45"
 
+pre-push@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/pre-push/-/pre-push-0.1.1.tgz#2a2a79827d243a76c91089897ac707f45e716aac"
+  dependencies:
+    shelljs "0.3.x"
+
 precommit-hook@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/precommit-hook/-/precommit-hook-3.0.0.tgz#6136c45185ff964371673f6b63e9e485549db1d7"
