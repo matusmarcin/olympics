@@ -27,7 +27,8 @@ export const getMedalsByCountry = (medals) => {
     medalsByCountry[item.country][`${item.medal.toLowerCase()}Count`] += 1;
     medalsByCountry[item.country].totalCount += 1;
   });
-  return Object.values(medalsByCountry);
+  return Object.keys(medalsByCountry).map(key => medalsByCountry[key]);
+  // return Object.values(medalsByCountry);
 };
 
 const dataService = () => next => (action) => {
